@@ -2,7 +2,7 @@
 
 > **Status: draft prompts, not yet run (2026-10-19).** The design, the 54 v0.1 prompts and the judge specification exist. There is no harness and no results yet.
 >
-> **Visibility:** repo private · prompts private · runs none
+> **Visibility:** repo public · prompts public · runs none
 
 When a model is asked an innocent question about a divisive US issue (no loaded wording, just "explain" or "summarise"), whose framing does its answer adopt? Does it lean toward the popular Democratic framing or the popular Republican one? On foreign policy, does it lean hawkish or dovish?
 
@@ -10,7 +10,7 @@ When a model is asked an innocent question about a divisive US issue (no loaded 
 
 [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/danielrosehill/US-Partisan-Framing-Eval)
 
-54 prompts: 42 probes across 14 topics, plus 12 factual controls. They are on Hugging Face at [huggingface.co/datasets/danielrosehill/US-Partisan-Framing-Eval](https://huggingface.co/datasets/danielrosehill/US-Partisan-Framing-Eval) (private). The source of truth is [`data/prompts.jsonl`](data/prompts.jsonl) in this repo, and [`data/README.md`](data/README.md) is the dataset card. The Hugging Face dataset is uploaded from `data/`:
+54 prompts: 42 probes across 14 topics, plus 12 factual controls. They are on Hugging Face at [huggingface.co/datasets/danielrosehill/US-Partisan-Framing-Eval](https://huggingface.co/datasets/danielrosehill/US-Partisan-Framing-Eval). The source of truth is [`data/prompts.jsonl`](data/prompts.jsonl) in this repo, and [`data/README.md`](data/README.md) is the dataset card. The Hugging Face dataset is uploaded from `data/`:
 
 ```bash
 hf upload danielrosehill/US-Partisan-Framing-Eval data . --repo-type dataset
