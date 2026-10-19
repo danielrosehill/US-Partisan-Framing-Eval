@@ -73,7 +73,7 @@ Not yet run.
 
 ## Origin
 
-This eval graduates from the plan [`My-Benchmarks/benchmark-plans/us-democrat-vs-republican-alignment.md`](https://github.com/danielrosehill/My-Benchmarks/blob/main/benchmark-plans/us-democrat-vs-republican-alignment.md) (2026-04-17). It takes the plan's "framing acceptance" idea and changes it: here the prompt is neutral and the framing shows up in the answer. Persona fidelity and asymmetric refusal, the plan's other two probes, are left out for now. On 2026-10-19 Daniel specified the innocent-question, anchored, blinded-grader design and added the hawk/dove axis.
+This eval graduates from the plan [`My-Benchmarks/benchmark-plans/us-democrat-vs-republican-alignment.md`](https://github.com/danielrosehill/My-Benchmarks/blob/1800607/benchmark-plans/us-democrat-vs-republican-alignment.md) (2026-04-17; the plan file was deleted from My-Benchmarks on 2026-10-19 when this repo replaced it). It takes the plan's "framing acceptance" idea and changes it: here the prompt is neutral and the framing shows up in the answer. Persona fidelity and asymmetric refusal, the plan's other two probes, are left out for now. On 2026-10-19 Daniel specified the innocent-question, anchored, blinded-grader design and added the hawk/dove axis.
 
 ## Related
 
